@@ -1,17 +1,10 @@
 function highlight() {
     //Write your code here
+cosnt boldwords = document.querySelectorall('strong');
+	boldWords.forEach(word => {
+		word.style.color = 'rgb(0,128,0)';
+	});
 
-
-}
-
-
-function return_normal() {
-    //Write your code here
-	function highlight() {
-  const strongs = document.querySelectorAll('strong');
-  strongs.forEach(el => {
-    el.style.color = 'rgb(0, 128, 0)';
-  });
 }
 
 function return_normal() {
